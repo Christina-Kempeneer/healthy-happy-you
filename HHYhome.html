@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Happy You</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="p-4 border-b bg-white sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center font-[Nunito] px-6">
+            <a href="HHYhome.html"><img src="images/HHY_nav.png" alt="Company Logo" class="logo max-w-[100px]" ></a>
+
+            <input type="checkbox" id="menu-toggle" class="sr-only peer">
+            <label for="menu-toggle" class="md:hidden text-gray-800 text-2xl cursor-pointer">&#9776;</label>
+
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="HHYhome.html" class="text-purple-900 text-lg hover:text-pink-500">Home</a></li>
+                <li><a href="HHYcoaching.html" class="text-purple-900 text-lg hover:text-pink-500">Coaching</a></li>
+                <li><a href="HHYabout.html" class="text-purple-900 text-lg hover:text-pink-500">About Me</a></li>
+                <li><a href="HHYcontact.html" class="text-purple-900 text-lg hover:text-pink-500">Contact</a></li>
+            </ul>
+       
+            <div class="hidden peer-checked:block md:hidden p-4 border-t">
+                <ul class="space-y-4">
+                    <li><a href="HHYhome.html" class="text-purple-900 text-lg hover:text-pink-500">Home</a></li>
+                    <li><a href="HHYcoaching.html" class="text-purple-900 text-lg hover:text-pink-500">Coaching</a></li>
+                    <li><a href="HHYabout.html" class="text-purple-900 text-lg hover:text-pink-500">About Me</a></li>
+                    <li><a href="HHYcontact.html" class="text-purple-900 text-lg hover:text-pink-500">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-start text-left bg-cover bg-center px-6 md:px-16"
+        style="background-image: url('lotus.jpg'); max-height: 500px;">
+
+        <div class="relative z-10 text-white max-w-2xl px-6">
+            <h1 class="text-4xl md:text-6xl font-[Charm] md:my-4">Healthy Happy You</h1>
+            <p class="mt-4 text-lg md:text-xl font-[Nunito]">Give your health and happiness the attention they deserve.</p>
+            <a href="HHYcoaching.html" class="mt-6 inline-block bg-white text-black py-3 px-6 rounded-lg font-medium hover:bg-pink-200 transition shadow-md">
+                Discover health coaching</a>
+        </div>
+    </section>
+
+    <section class="bg-yellow-50 px-12 py-8">
+        <div class="container mx-auto text-center">
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+                <div class="flex flex-col justify-center items-center">
+                    <img src="HWB_icon.png" alt="Health & Wellbeing Coaching" class="object-cover rounded-full shadow-md">
+                    <a href="coaching_HWB.html" class="mt-3 text-xl md:text-2xl font-[Charm] text-purple-900 hover:text-pink-500">Health & Wellbeing Coaching</a>
+                </div>
+
+                <div class="flex flex-col justify-center items-center">
+                    <img src="HWB_icon.png" alt="Stress & Burnout Coaching" class="object-cover rounded-full shadow-md">
+                    <a href="coaching_Stress.html" class="mt-3 text-xl md:text-2xl font-[Charm] text-purple-900 hover:text-pink-500">Stress & Burnout Coaching</a>
+                </div>
+
+                <div class="flex flex-col justify-center items-center">
+                    <img src="HWB_icon.png" alt="Coaching with Tarot Cards" class="object-cover rounded-full shadow-md">
+                    <a href="coaching_Tarot.html" class="mt-3 text-xl md:text-2xl font-[Charm] text-purple-900 hover:text-pink-500">Coaching with Tarot Cards</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-purple-100 px-12 py-8">
+        <div class="container mx-auto text-left font-[Nunito] md:max-w-[70%] py-8">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="font-bold text-2xl my-2">What is coaching?</h2>
+                    <p>Coaching takes you from where you are to where you want to be.</p>
+                    <br>
+                    <p>A coach helps you on your journey to reaching your goals. Along the way you'll learn about yourself, you'll work on becoming your best self, and step by step you'll move towards reaching your goal.
+                    </p>
+                    <a href="HHYcoaching.html" class="mt-6 inline-block bg-purple-100 text-black py-3 px-6 rounded-lg font-medium hover:bg-pink-200 transition shadow-md">
+                        Find out more</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="font-bold text-2xl my-2">7 ways a coach can help you reach your goal</h2>
+                    <ol class="text-gray-700 list-decimal pl-5 space-y-2">
+                        <li>Clarify and set goals</li>
+                        <li>Develop a plan and track progress</li>
+                        <li>Maintain motivation and stay accountable</li>
+                        <li>Leverage your strengths</li>
+                        <li>Build habits that stick</li>
+                        <li>Receive knowledge, tools and ideas</li>
+                        <li>Make sure you can continue on your own</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md mt-10 md:max-w-[70%] mx-auto">
+            <div class="grid md:grid-cols-3 items-center gap-8">
+                
+                <div class="text-center md:text-left">
+                    <h2 class="font-bold text-2xl my-2">Who am I?</h2>
+                    <p>I've helped companies with their marketing for 15 years. Now, I'm helping people become healthier and happier.</p>
+                    <a href="HHYabout.html" class="mt-6 inline-block bg-purple-100 text-black py-3 px-6 rounded-lg font-medium hover:bg-pink-200 transition shadow-md">
+                        Get to know me
+                    </a>
+                </div>
+        
+                <div class="flex justify-center">
+                    <img src="christinakempeneer1.jpg" class="rounded-t-full w-36 md:w-48 shadow-md">
+                </div>
+        
+                <div class="text-center md:text-left">
+                    <h2 class="font-bold text-2xl my-2">Get started</h2>
+                    <p>Do you want to be healthier and happier? I'd love to be your coach.</p>
+                    <p>Start working towards a HEALTHY HAPPY YOU!</p>
+                    <a href="HHYcontact.html" class="mt-6 inline-block bg-purple-100 text-black py-3 px-6 rounded-lg font-medium hover:bg-pink-200 transition shadow-md">
+                        Book a free discovery call
+                    </a>
+                </div>
+        
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center my-5  font-[Nunito]">
+        <p>Copyright © 2025 Christina Kempeneer | All Rights Reserved | 
+            <a href="mailto:coachkempeneer@gmail.com" class="mt-3 text-purple-900 hover:text-pink-500">coachkempeneer@gmail.com</a> |
+            <a href="tel:0032498152052" class="mt-3 text-purple-900 hover:text-pink-500">0498 152 052</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
